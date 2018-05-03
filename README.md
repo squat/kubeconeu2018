@@ -2,6 +2,8 @@
 
 This repository contains the demo code for my KubeCon EU 2018 talk about automating GPU infrastructure for Kubernetes on Container Linux.
 
+[![asciicast](https://asciinema.org/a/DE7RVqDsHSPjackcPmQwFElaX.png)](https://asciinema.org/a/DE7RVqDsHSPjackcPmQwFElaX)
+
 ## Prerequisites
 
 You will need a Google Cloud account with available quota for NVIDIA GPUs.
@@ -38,7 +40,7 @@ $EDITOR terraform.tfvars
 3. create GPU manifests:
 
     ```sh
-    kubectl apply -R -f manifests
+    kubectl apply -f manifests
     ```
 
 4. check status of driver installer:
