@@ -2,6 +2,7 @@
 
 This repository contains the demo code for my KubeCon EU 2018 talk about automating GPU infrastructure for Kubernetes on Container Linux.
 
+[![youtube](https://img.youtube.com/vi/i6V4KPh_D5g/0.jpg)](https://www.youtube.com/watch?v=i6V4KPh_D5g)
 [![asciicast](https://asciinema.org/a/DE7RVqDsHSPjackcPmQwFElaX.png)](https://asciinema.org/a/DE7RVqDsHSPjackcPmQwFElaX)
 
 ## Prerequisites
