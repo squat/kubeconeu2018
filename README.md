@@ -86,3 +86,12 @@ $EDITOR terraform.tfvars
     ```sh
     terraform destroy --auto-approve
     ```
+
+## Projects Leveraged In This Demo
+
+| Component                | URL                                                                                                          |
+|:------------------------:|:------------------------------------------------------------------------------------------------------------:|
+| Kubernetes installer     | https://github.com/poseidon/typhoon                                                                          |
+| GPU driver installer     | https://github.com/squat/modulus                                                                             |
+| Kubernetes device plugin | https://github.com/kubernetes/kubernetes/blob/master/cluster/addons/device-plugins/nvidia-gpu/daemonset.yaml |
+| sample workload          | https://github.com/squat/darkapi                                                                             |
